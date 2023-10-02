@@ -87,7 +87,7 @@ async def login(user: LoginModel, Authorize:AuthJWT=Depends()):
         data = {
             "success": True,
             "message": "Access token successfully created",
-            "token": token
+            # "token": token
         }
 
         jsonable_encoder(data)
