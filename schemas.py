@@ -28,7 +28,7 @@ class SignUpModel(BaseModel):
 
 
 class Settings(BaseModel):
-    auth_jwt_secret_key: str = '222fd4ddcabfbfa5e1c989d1bbbc5a02'
+    auth_jwt_secret_key: str = ("HS256", '222fd4ddcabfbfa5e1c989d1bbbc5a02')
 
 
 
